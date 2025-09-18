@@ -20,6 +20,8 @@ stages:
             Contents: |
               **/*
               !.git/**/*
+              !*.yml
+              !.gitignore
             TargetFolder: '$(build.artifactstagingdirectory)'
 
         - task: PublishBuildArtifacts@1
