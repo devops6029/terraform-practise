@@ -18,3 +18,8 @@ variable "environment" {
     type = string
   
 }
+
+variable "account_replication_type" {
+    type = string
+  
+}
