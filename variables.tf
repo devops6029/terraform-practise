@@ -24,3 +24,9 @@ variable "account_replication_type" {
 
 
 }
+
+variable "delete_disk" {
+    type = bool
+    default = true
+  
+}
