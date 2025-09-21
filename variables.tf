@@ -1,7 +1,7 @@
 variable "location" {
     type = list(string)
     description = "Region the resources need to be created"
-    default = [ "East US", "West Europe", "North Europe" ]
+    
   
 }
 
