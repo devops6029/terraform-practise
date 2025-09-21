@@ -1,4 +1,3 @@
-location = "eastus"
 storage_account_name = "backendterra6029"
 resource_group_name = "terraform-cli"
 environment = "Dev"
