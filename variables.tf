@@ -1,6 +1,7 @@
 variable "location" {
-    type = string
+    type = list(string)
     description = "Region the resources need to be created"
+    default = [ "East US", "West Europe", "North Europe" ]
   
 }
 
@@ -24,6 +25,8 @@ variable "account_replication_type" {
 
 
 }
+
+
 
 variable "delete_disk" {
     type = bool
