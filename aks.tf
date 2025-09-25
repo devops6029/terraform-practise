@@ -1,6 +1,6 @@
 resource "azurerm_resource_group" "example" {
   name     = "example-resources"
-  location = "West Europe"
+  location = "East US"
 }
 
 resource "azurerm_kubernetes_cluster" "example" {
@@ -12,7 +12,7 @@ resource "azurerm_kubernetes_cluster" "example" {
   default_node_pool {
     name       = "default"
     node_count = 1
-    vm_size    = "Standard_D2_v2"
+    vm_size    = "Standard_D2s_v6"
   }
 
   identity {
